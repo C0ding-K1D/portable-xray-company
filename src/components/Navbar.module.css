@@ -1,0 +1,152 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+    width: 100vw;
+    background-color: #ddd;
+    border-bottom: .2rem solid #033c96;
+}
+
+.navbar-logo {
+    padding-top: .5rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-link_container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    /* height: 80px; */
+}
+
+
+.nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #033c96;
+    font-size: 1.2rem;
+    ;
+}
+
+.hamburger {
+    color: #033c96;
+    display: none;
+    pointer-events: none;
+}
+
+/* .nav-dropdown {
+    position: relative;
+}
+
+ul ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 3rem;
+}
+
+ul ul li {
+    background-color: #ccc;
+    padding: 1rem 2rem 1rem 2rem;
+} */
+
+
+@media screen and (max-width: 960px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-item {
+        position: relative;
+        top: 18rem;
+        left: -25rem;
+        margin-left: -25rem;
+        width: 100vw;
+    }
+
+    .nav-link_container {
+        position: relative;
+        top: 0rem;
+    }
+
+
+    .nav-link {
+        text-align: center;
+        padding: 2rem;
+        width: 100vw;
+        position: relative;
+        top: 1rem;
+        left: 25rem;
+        ;
+        /* right: 0; */
+        display: flex;
+        justify-content: center;
+        background-color: #033c96;
+        color: #fff;
+        z-index: 30;
+    }
+
+    .nav-link:hover {
+        background-color: #5cabff;
+        color: #fff;
+        border-radius: 0;
+        width: 100vw;
+    }
+
+    .hamburger {
+        display: block;
+        position: relative;
+        top: 0;
+        right: 2.5rem;
+        font-size: 1.8rem;
+        cursor: pointer;
+        pointer-events: all;
+    }
+
+    .fa-times {
+        font-size: 2.2rem;
+        cursor: pointer;
+        pointer-events: all;
+    }
+
+    .nav-links-mobile {
+        position: relative;
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        background: #033c96;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .nav-links-mobile:hover {
+        background: #fff;
+        color: #033c96;
+        transition: 250ms;
+    }
+
+    button {
+        position: fixed;
+        bottom: 2rem;
+        left: 0;
+        /* width: 100%; */
+        /* visibility: hidden; */
+    }
+}

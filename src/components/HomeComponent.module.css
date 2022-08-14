@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+p {
+    text-align: center;
+}
+
+.hero-image {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    /* margin-top: 2rem;
+    border-radius: .8rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: #ddd; */
+}
+
+.main-text {
+    margin-top: 5rem;
+    padding: 0 5rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.apda-image {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin-bottom: 8rem;
+    ;
+}
