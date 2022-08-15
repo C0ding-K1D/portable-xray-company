@@ -10,7 +10,7 @@ export const Welcome = () => {
         <div className={classes["logo-container"]}>
           <img className={classes.logo} src={logo} alt="" />
           <Link to="/home" className={classes["margin-top"]}>
-            <button className={classes.button}>Enter</button>
+            <button className={classes["enter-btn"]}>Enter</button>
           </Link>
         </div>
       </div>

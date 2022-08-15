@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    margin: 5rem auto;
+    width: 80%;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    padding-bottom: 3rem;
+}
+
+.sub-heading {
+    background-color: #033c96;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    text-transform: uppercase;
+}
+
+.counter {
+    color: #033c96;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    ;
+    text-transform: uppercase;
+    font-weight: bold;
+}

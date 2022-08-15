@@ -1,16 +1,21 @@
 import React, { useState } from "react";
-import { Navbar } from "./Navbar";
+import Header from "./Navbar";
 import classes from "./HomeComponent.module.css";
 import heroImage from "../assets/XRayatHome.png";
 import apdaLogo from "../assets/apdaLogo.png";
+import Announcements from "./Announcments";
+import Partners from "./Partners";
+import Footer from "./Footer";
 
 export const HomeComponent = () => {
   return (
     <>
-      <Navbar />
+      <Header />
       <section>
-        {/* <h1>Specialty Portable X-Ray, Inc.</h1> */}
         <img className={classes["hero-image"]} src={heroImage} alt="" />
+        <h1 className={classes["heading-primary"]}>
+          Specialty Portable X-Ray, Inc. is here to help
+        </h1>
 
         <p className={classes["main-text"]}>
           SPX is a medical diagnostic X-Ray and Ultrasound imaging company with
@@ -20,9 +25,10 @@ export const HomeComponent = () => {
           technology allows us to be faster, safer and more accurate than
           available alternatives.
         </p>
-        <h1>A Proud Member</h1>
-        <p>of</p>
-        <img className={classes["apda-image"]} src={apdaLogo} alt="" />
+        <Announcements />
+        {/* <img className={classes["apda-image"]} src={apdaLogo} alt="" /> */}
+        <Partners />
+        <Footer />
       </section>
     </>
   );

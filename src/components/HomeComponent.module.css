@@ -18,8 +18,15 @@ p {
     background-color: #ddd; */
 }
 
+.heading-primary {
+    color: #033c96;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
 .main-text {
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 0 5rem;
     font-size: 1.4rem;
     line-height: 2.2rem;
@@ -30,6 +37,6 @@ p {
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
     ;
 }

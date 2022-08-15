@@ -1,5 +1,5 @@
 .background {
-    background-image: url(../assets/national-cancer-institute-59pGROkKJPE-unsplash.jpg);
+    background-image: url(../assets/national-cancer-institute-59pGROkKJPE-unsplash.png);
     background-size: cover;
     background-position: center;
     height: 110vh;
@@ -20,10 +20,10 @@
 }
 
 .margin-top {
-    margin-top: -10rem;
+    margin-top: -15rem;
 }
 
-.button {
+.enter-btn {
     padding: .8rem 2rem;
     border-radius: .4rem;
     outline: none;
@@ -38,8 +38,8 @@
     transition: all;
 }
 
-.button:hover {
-    padding: .6rem 1.8rem;
+.enter-btn:hover {
+    padding: .8rem 2rem;
     border-radius: .4rem;
     border: .2rem solid #033c96;
     background-color: #5cabff;
@@ -55,3 +55,12 @@
         opacity: 1;
     }
 }
+
+/* @media screen and (max-width: 960px) {
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+} */

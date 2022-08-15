@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    ;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+p {
+    text-align: center;
+}
+
+.apda-image {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin-bottom: 2rem;
+    ;
+}
+
+.logos {
+    width: 15%;
+}

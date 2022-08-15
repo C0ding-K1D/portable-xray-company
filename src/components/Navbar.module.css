@@ -30,7 +30,8 @@
 }
 
 
-.nav-link {
+.header-nav-link {
+    padding-top: 1rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #033c96;
@@ -42,6 +43,48 @@
     color: #033c96;
     display: none;
     pointer-events: none;
+}
+
+.exam-btn {
+    position: fixed;
+    top: 19.5rem;
+    right: 0rem;
+    z-index: 300;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    /* width: 100%; */
+    /* visibility: hidden; */
+}
+
+.exam-btn:hover {
+    border-radius: 100%;
+    background-color: #eee;
+}
+
+.icon {
+    margin-top: .6rem;
+}
+
+.orderBtn-text {
+    text-transform: uppercase;
+    color: #5cabff;
+}
+
+.orderBtn-text_2 {
+    text-transform: uppercase;
+    color: #5cabff;
+    margin-top: -1.4rem;
+}
+
+.btn-text {
+    margin-top: 1rem;
+}
+
+.btn-text_2 {
+    display: none;
 }
 
 /* .nav-dropdown {
@@ -71,9 +114,9 @@ ul ul li {
 
     .nav-item {
         position: relative;
-        top: 18rem;
-        left: -25rem;
-        margin-left: -25rem;
+        top: 20.5rem;
+        left: -23rem;
+        margin-left: -28rem;
         width: 100vw;
     }
 
@@ -83,13 +126,13 @@ ul ul li {
     }
 
 
-    .nav-link {
+    .header-nav-link {
         text-align: center;
         padding: 2rem;
         width: 100vw;
         position: relative;
         top: 1rem;
-        left: 25rem;
+        left: 23rem;
         ;
         /* right: 0; */
         display: flex;
@@ -99,7 +142,7 @@ ul ul li {
         z-index: 30;
     }
 
-    .nav-link:hover {
+    .header-nav-link:hover {
         background-color: #5cabff;
         color: #fff;
         border-radius: 0;
@@ -122,31 +165,27 @@ ul ul li {
         pointer-events: all;
     }
 
-    .nav-links-mobile {
-        position: relative;
-        display: block;
-        text-align: center;
-        padding: 1.5rem;
-        margin: 2rem auto;
-        border-radius: 4px;
-        width: 80%;
-        background: #033c96;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.5rem;
-    }
 
-    .nav-links-mobile:hover {
-        background: #fff;
-        color: #033c96;
-        transition: 250ms;
-    }
 
-    button {
+
+    .exam-btn {
         position: fixed;
-        bottom: 2rem;
-        left: 0;
+        top: 18.5rem;
+        right: 0rem;
+        z-index: 300;
         /* width: 100%; */
         /* visibility: hidden; */
     }
+
+    .btn-text {
+        font-size: .8rem;
+        margin-bottom: 3.7rem;
+    }
+
+    .btn-text_2 {
+        margin-top: -6rem;
+        font-size: .8rem;
+        display: flex;
+    }
+
 }
